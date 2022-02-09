@@ -1,0 +1,8 @@
+.pricing {
+  .card {
+    &-item {
+      width: calc(420px - 80px);
+      margin-right: 80px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header{
+    h1{
+        @apply text-red-500;
+    }
+    background-image: url('../images/fold.png');
+    .menu{
+        &-item{
+            display: flex;
+            @apply bg-red-500 text-red-400;
+        }
+    }
+}

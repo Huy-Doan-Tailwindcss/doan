@@ -1,0 +1,62 @@
+.pricing {
+  .card {
+    &-item {
+      width: calc(420px - 80px);
+      &:not(:last-child) {
+        margin-right: 80px;
+      }
+      &:hover {
+        @apply bg-white cursor-pointer;
+        h2,
+        h4:not(span) {
+          @apply text-purple;
+        }
+        .card-divi {
+          @apply border-gray-5;
+        }
+        .btn-outline-pricing {
+          @apply btn px-20 py-[15px] border-none;
+        }
+      }
+      @media screen and (max-width: 1199px) {
+        width: 300px;
+        margin-bottom: 24px;
+        &:not(:last-child) {
+          margin-right: 40px;
+        }
+      }
+      @media screen and (max-width: 767px) {
+        margin: 10px 0;
+        &:not(:last-child) {
+          margin-right: 0;
+        }
+      }
+    }
+    @media screen and (max-width: 1023px) {
+      &-list {
+        display: grid;
+        justify-content: flex-start;
+        grid-auto-columns: 70%;
+        grid-auto-flow: column;
+        grid-gap: 1.5rem;
+        overflow: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        scroll-snap-stop: always;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        -webkit-overflow-scrolling: touch;
+        scroll-padding: 1rem;
+        grid-template-columns: unset;
+        &::-webkit-scrollbar {
+          display: none;
+          width: 0;
+        }
+        & > * {
+          scroll-snap-align: center;
+          // width: 80%;
+        }
+      }
+    }
+  }
+}

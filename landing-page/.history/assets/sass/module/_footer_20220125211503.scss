@@ -1,0 +1,7 @@
+.footer {
+  .menu-footer {
+    &-item:not(:first-child) {
+      @apply mr-9;
+    }
+  }
+}

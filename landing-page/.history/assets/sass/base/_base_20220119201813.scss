@@ -1,0 +1,17 @@
+@layer base {
+  body {
+    @apply text-gray font-roboto font-normal text-base px-auto py-auto border-solid border-2
+    border-gray-4 rounded-68;
+  }
+  html {
+    @apply m-0;
+  }
+  html,
+  body {
+    @apply overflow-x-hidden bg-lightgray;
+  }
+  h1,
+  .h1 {
+    @apply text-5xl font-bold;
+  }
+}

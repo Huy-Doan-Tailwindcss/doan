@@ -1,0 +1,5 @@
+.multi-col {
+  &-item:not(:first-child) {
+    @apply ml-[20px];
+  }
+}

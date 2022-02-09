@@ -1,0 +1,27 @@
+@layer base {
+  body {
+    @apply font-roboto font-normal text-base text-gray;
+  }
+  html {
+    @apply m-0;
+  }
+  html,
+  body {
+    @apply overflow-x-hidden bg-lightgray;
+  }
+  h1,
+  .h1 {
+    @apply text-5xl font-bold;
+  }
+  h2,
+  .h2 {
+    @apply text-[40px] text-purple mb-[30px] font-bold leading-[48px];
+  }
+  h3,
+  .h3 {
+    @apply text-[40px] text-purple font-bold leading-[19px];
+  }
+  p {
+    @apply leading-[1.5] text-[18px];
+  }
+}

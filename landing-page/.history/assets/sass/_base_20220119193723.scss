@@ -1,0 +1,16 @@
+@layer base {
+  body {
+    @apply text-black xl:text-lg font-popins font-light text-sm;
+  }
+  html {
+    @apply m-0;
+  }
+  html,
+  body {
+    @apply overflow-x-hidden bg-white;
+  }
+  h1,
+  .h1 {
+    @apply text-h1-lg font-bold;
+  }
+}

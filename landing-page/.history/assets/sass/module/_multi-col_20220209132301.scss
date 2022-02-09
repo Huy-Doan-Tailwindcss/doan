@@ -1,0 +1,21 @@
+.multi-col {
+  &-item {
+    width: calc(400px - 20px);
+    margin-bottom: 130px;
+    padding: 0 15px;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+    @media screen and (max-width: 1199px) {
+      width: calc(400px - 60px);
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+    }
+    @media screen and (max-width: 1023px) {
+      .multi-list:not(:first-child) {
+        @apply py-6;
+      }
+    }
+  }
+}

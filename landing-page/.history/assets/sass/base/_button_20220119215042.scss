@@ -1,0 +1,8 @@
+@layer base {
+  .btn {
+    @apply py-[10px] px-14 bg-pink text-white rounded-[68px];
+  }
+  .btn-outline {
+    @apply px-12 py-[10px] border-solid border-2 border-gray-4 rounded-[68px];
+  }
+}

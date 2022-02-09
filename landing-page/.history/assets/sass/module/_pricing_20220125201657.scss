@@ -1,0 +1,23 @@
+.pricing {
+  .card {
+    &-item {
+      width: calc(420px - 80px);
+      &:not(:last-child) {
+        margin-right: 80px;
+      }
+      &:hover {
+        @apply bg-white cursor-pointer;
+        h2,
+        h4:not(span) {
+          @apply text-purple;
+        }
+        .card-divi {
+          @apply border-gray-5;
+        }
+        .btn-outline-pricing {
+          @apply btn px-20 py-[15px] border-none;
+        }
+      }
+    }
+  }
+}

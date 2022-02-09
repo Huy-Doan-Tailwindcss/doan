@@ -1,0 +1,9 @@
+.header {
+  &-menu {
+    .menu {
+      .menu-item {
+        @apply ml-5;
+      }
+    }
+  }
+}

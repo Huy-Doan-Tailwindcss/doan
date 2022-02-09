@@ -1,0 +1,10 @@
+.pricing {
+  .card {
+    &-item {
+      width: calc(420px - 80px);
+      &:not(:last-child) {
+        margin-right: 80px;
+      }
+    }
+  }
+}

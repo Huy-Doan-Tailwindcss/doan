@@ -1,0 +1,16 @@
+@layer base {
+  body {
+    @apply text-gray font-roboto font-normal text-base;
+  }
+  html {
+    @apply m-0;
+  }
+  html,
+  body {
+    @apply overflow-x-hidden bg-lightgray;
+  }
+  h1,
+  .h1 {
+    @apply text-5xl font-bold;
+  }
+}

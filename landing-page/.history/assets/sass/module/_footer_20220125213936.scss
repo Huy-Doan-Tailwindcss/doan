@@ -1,0 +1,12 @@
+.footer {
+  .menu-footer {
+    .menu-footer-item:not(:first-child) {
+      @apply ml-9;
+    }
+  }
+  .social {
+    &-link:not(:last-child) {
+      @apply mr-10;
+    }
+  }
+}

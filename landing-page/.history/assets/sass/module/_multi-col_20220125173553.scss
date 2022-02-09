@@ -1,0 +1,10 @@
+.multi-col {
+  &-item {
+    width: calc(400px - 20px);
+    margin-bottom: 130px;
+    padding: 15px;
+  }
+  &-item:not(:last-child) {
+    margin-right: 20px;
+  }
+}

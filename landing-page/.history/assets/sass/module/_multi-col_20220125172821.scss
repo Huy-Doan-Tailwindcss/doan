@@ -1,0 +1,11 @@
+.multi-col {
+  &-item {
+    width: calc(380px);
+    // margin-right: 20px;
+
+    margin-bottom: 130px;
+  }
+  &-item {
+    padding-right: 20px;
+  }
+}

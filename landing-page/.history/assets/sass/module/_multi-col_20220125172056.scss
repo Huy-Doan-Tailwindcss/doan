@@ -1,0 +1,6 @@
+.multi-col {
+  &-item {
+    width: calc(400px - 20px);
+    margin-right: 20px;
+  }
+}

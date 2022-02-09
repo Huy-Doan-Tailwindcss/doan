@@ -1,0 +1,10 @@
+.footer {
+  .menu-footer {
+    .menu-footer-item:not(:first-child) {
+      @apply mr-9;
+    }
+  }
+  .social:not(:first-child) {
+    @apply mr-10;
+  }
+}

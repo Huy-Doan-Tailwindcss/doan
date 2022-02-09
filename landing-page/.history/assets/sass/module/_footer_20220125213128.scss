@@ -1,0 +1,12 @@
+.footer {
+  width: calc(100% - 72px) .menu-footer {
+    .menu-footer-item:not(:first-child) {
+      @apply ml-9;
+    }
+  }
+  .social {
+    i:not(:last-child) {
+      @apply mr-10;
+    }
+  }
+}

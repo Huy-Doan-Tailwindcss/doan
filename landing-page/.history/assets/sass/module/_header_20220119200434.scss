@@ -1,0 +1,9 @@
+.header {
+  &-menu {
+    .menu {
+      .menu-item:not(:first-child) {
+        @apply ml-5;
+      }
+    }
+  }
+}
