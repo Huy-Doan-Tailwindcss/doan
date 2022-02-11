@@ -65,7 +65,7 @@ body {
   }
 }
 .header-menu .menu .menu-item:not(:first-child) {
-  @apply ml-9;
+  @apply ml-9 laptop:pt-5;
 }
 
 .multi-col-item {

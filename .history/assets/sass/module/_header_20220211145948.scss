@@ -1,0 +1,9 @@
+.header {
+  &-menu {
+    .menu {
+      .menu-item:not(:last-child) {
+        @apply mr-9 laptop:pt-5;
+      }
+    }
+  }
+}

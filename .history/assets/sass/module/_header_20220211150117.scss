@@ -2,7 +2,7 @@
   &-menu {
     .menu {
       .menu-item:not(:first-child) {
-        @apply ml-9 laptop:pt-5;
+        @apply ml-9;
       }
     }
   }

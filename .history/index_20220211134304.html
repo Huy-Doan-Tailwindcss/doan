@@ -10,18 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <script src="./assets/js/menu.js"></script>
 </head>
 <body>
     <header class="header bg bg-header">
       <div class="container pt-[45px]">
-        <div class="row items-center">
-            <div class="header-menu mobile:w-full col justify-between flex items-center w-full laptop:flex-wrap">
-                <a href="#" class="laptop:w-1/2">
+        <div class="row items-center justify-between">
+            <div class="header-menu mobile:w-1/2 col flex items-center">
+                <a href="#" class="laptop:order-1">
                     <img src="./assets/images/logo.png" alt="logo-header">
                 </a>
-                <ul class="menu laptop:hidden laptop:text-lg laptop:pt-5 flex ml-[82px] laptop:order-1 laptop:flex-col laptop:ml-auto laptop:w-full laptop:text-right transition-all delay-500">
+                <ul class="menu laptop:hidden flex ml-[82px] laptop:order-2">
                   <li class="menu-item">
                     <a href="#" class="menu-link hover:text-white">Products</a>
                   </li>
@@ -34,15 +32,12 @@
                   <li class="menu-item">
                     <a href="#" class="menu-link hover:text-white">Blog</a>
                   </li>
-                  <li class="menu-item laptop:block hidden">
-                    <a href="#" class="btn-outline hover:text-white transition-all">Sign Up</a>
-                  </li>
                 </ul>
-                <div class="header-menu-bar laptop:w-1/2 laptop:text-lg laptop:p-0 col flex items-center justify-end">
+                <div class="header-menu mobile:w-1/2 col flex items-center justify-end">
                     <a href="#" class="hover:text-white mr-10">Sign In</a>
                     <a href="#" class="btn-outline laptop:hidden hover:text-white transition-all">Sign Up</a>
-                    <a href="#" class="hidden laptop:block text-3xl icon-menu-bar">
-                      <i class="uil uil-bars text-gray icon-bar"></i>
+                    <a href="#" class="hidden laptop:block text-3xl">
+                      <i class="uil uil-bars text-gray"></i>
                     </a>
                 </div>
             </div>
